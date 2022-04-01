@@ -9,7 +9,7 @@ import Foundation
 
 struct LocalAPI {
     static let scheme = "https"
-    static let host = "dapi.kakako.com"
+    static let host = "dapi.kakao.com"
     static let path = "/v2/local/search/category.json"
     
     func getLocation(by mapPoint: MTMapPoint) -> URLComponents {

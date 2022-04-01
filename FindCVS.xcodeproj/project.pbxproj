@@ -7,17 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39F788078F220D21ADB02E28 /* Pods_FindCVSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC84DE16C3E375A39F520389 /* Pods_FindCVSTests.framework */; };
+		DC4A24A7640C19B67608F2AE /* Pods_FindCVS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1F0D7CFDBB5B65B2BD4BDD /* Pods_FindCVS.framework */; };
 		E521473A27F34168003CBE51 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521473927F34168003CBE51 /* DetailListCellData.swift */; };
 		E521473C27F34259003CBE51 /* LocationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521473B27F34259003CBE51 /* LocationInformationViewController.swift */; };
 		E521473F27F342BD003CBE51 /* LocationInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521473E27F342BD003CBE51 /* LocationInformationViewModel.swift */; };
 		E521474F27F3496A003CBE51 /* MTMapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521474E27F3496A003CBE51 /* MTMapViewError.swift */; };
-		E526CD8127F60DCD00757C5B /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E526CD8027F60DCD00757C5B /* RxCocoa */; };
-		E526CD8327F60DEB00757C5B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E526CD8227F60DEB00757C5B /* SnapKit */; };
-		E526CD8527F60DF100757C5B /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E526CD8427F60DF100757C5B /* RxSwift */; };
-		E526CD8927F60DFF00757C5B /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E526CD8827F60DFF00757C5B /* RxRelay */; };
-		E526CD8C27F60E2B00757C5B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52F4BA427F6057B00DC1551 /* XCTest.framework */; platformFilter = ios; };
 		E52EDD5827F33C9F00A22893 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EDD5727F33C9F00A22893 /* LocationData.swift */; };
 		E52EDD5B27F33D2300A22893 /* KLdocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EDD5A27F33D2300A22893 /* KLdocument.swift */; };
+		E59E60E327F7027A003EE905 /* LocalNetworkStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E60E227F7027A003EE905 /* LocalNetworkStub.swift */; };
+		E5B27C2827F71EDD005A75E7 /* map_pinup_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0327F71EDD005A75E7 /* map_pinup_custom@3x.png */; };
+		E5B27C2927F71EDD005A75E7 /* map_pin_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0427F71EDD005A75E7 /* map_pin_custom.png */; };
+		E5B27C2A27F71EDD005A75E7 /* shadow_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0527F71EDD005A75E7 /* shadow_balloon.png */; };
+		E5B27C2B27F71EDD005A75E7 /* map_pinup.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0627F71EDD005A75E7 /* map_pinup.png */; };
+		E5B27C2C27F71EDD005A75E7 /* detail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0727F71EDD005A75E7 /* detail_button.png */; };
+		E5B27C2D27F71EDD005A75E7 /* map_pin_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0827F71EDD005A75E7 /* map_pin_custom@3x.png */; };
+		E5B27C2E27F71EDD005A75E7 /* map_pinup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0927F71EDD005A75E7 /* map_pinup@3x.png */; };
+		E5B27C2F27F71EDD005A75E7 /* map_pin_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0A27F71EDD005A75E7 /* map_pin_shadow@3x.png */; };
+		E5B27C3027F71EDD005A75E7 /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0B27F71EDD005A75E7 /* copyright.png */; };
+		E5B27C3127F71EDD005A75E7 /* th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0C27F71EDD005A75E7 /* th_line.png */; };
+		E5B27C3227F71EDD005A75E7 /* map_pin_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0D27F71EDD005A75E7 /* map_pin_red@3x.png */; };
+		E5B27C3327F71EDD005A75E7 /* daum_copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0E27F71EDD005A75E7 /* daum_copyright.png */; };
+		E5B27C3427F71EDD005A75E7 /* map_pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C0F27F71EDD005A75E7 /* map_pin@3x.png */; };
+		E5B27C3527F71EDD005A75E7 /* map_present_tracking.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C1027F71EDD005A75E7 /* map_present_tracking.png */; };
+		E5B27C3627F71EDD005A75E7 /* map_pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C1127F71EDD005A75E7 /* map_pin_red.png */; };
+		E5B27C3727F71EDD005A75E7 /* info_box.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C1B27F71EDD005A75E7 /* info_box.png */; };
+		E5B27C3827F71EDD005A75E7 /* point_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C1C27F71EDD005A75E7 /* point_sprite.png */; };
+		E5B27C3927F71EDD005A75E7 /* map_pinup_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C1D27F71EDD005A75E7 /* map_pinup_custom.png */; };
+		E5B27C3A27F71EDD005A75E7 /* info_box_tail.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C1E27F71EDD005A75E7 /* info_box_tail.png */; };
+		E5B27C3B27F71EDE005A75E7 /* noimage256.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C1F27F71EDD005A75E7 /* noimage256.png */; };
+		E5B27C3C27F71EDE005A75E7 /* map_present_direction.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C2027F71EDD005A75E7 /* map_present_direction.png */; };
+		E5B27C3D27F71EDE005A75E7 /* map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C2127F71EDD005A75E7 /* map_pin.png */; };
+		E5B27C3E27F71EDE005A75E7 /* map_present.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C2227F71EDD005A75E7 /* map_present.png */; };
+		E5B27C3F27F71EDE005A75E7 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C2327F71EDD005A75E7 /* noimage.png */; };
+		E5B27C4027F71EDE005A75E7 /* map_present_background_update.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C2427F71EDD005A75E7 /* map_present_background_update.png */; };
+		E5B27C4127F71EDE005A75E7 /* daum_th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C2527F71EDD005A75E7 /* daum_th_line.png */; };
+		E5B27C4227F71EDE005A75E7 /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B27C2627F71EDD005A75E7 /* map_pin_shadow.png */; };
+		E5B27C4327F71EDE005A75E7 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B27C2727F71EDD005A75E7 /* DaumMap.framework */; };
 		E5BB1BDF27F5E3E900853514 /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB1BDE27F5E3E900853514 /* DetailListCell.swift */; };
 		E5BB1BE127F5E69900853514 /* DetailListBackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB1BE027F5E69900853514 /* DetailListBackGroundView.swift */; };
 		E5BB1BE527F5E6EA00853514 /* DetailListBackGroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BB1BE427F5E6EA00853514 /* DetailListBackGroundViewModel.swift */; };
@@ -28,7 +54,6 @@
 		E5EC8FFE27F2DC11009FE296 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC8FFD27F2DC11009FE296 /* SceneDelegate.swift */; };
 		E5EC900527F2DC12009FE296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EC900427F2DC12009FE296 /* Assets.xcassets */; };
 		E5EC900827F2DC12009FE296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EC900627F2DC12009FE296 /* LaunchScreen.storyboard */; };
-		E5EC901127F2DE6A009FE296 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC901027F2DE6A009FE296 /* DaumMap.framework */; };
 		E5EC901627F2DF40009FE296 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC901527F2DF40009FE296 /* OpenGLES.framework */; };
 		E5EC901827F2DF4D009FE296 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC901727F2DF4D009FE296 /* SystemConfiguration.framework */; };
 		E5EC901A27F2DF66009FE296 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC901927F2DF66009FE296 /* CoreLocation.framework */; };
@@ -38,7 +63,23 @@
 		E5EC902227F2DFAD009FE296 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC902127F2DFAD009FE296 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E59E60DD27F7020D003EE905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5EC8FF027F2DC11009FE296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5EC8FF727F2DC11009FE296;
+			remoteInfo = FindCVS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3979C0EBFD9EF5C71D3D35DD /* Pods-FindCVS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS.release.xcconfig"; path = "Target Support Files/Pods-FindCVS/Pods-FindCVS.release.xcconfig"; sourceTree = "<group>"; };
+		B140A174A1501886BBF9566B /* Pods-FindCVSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVSTests.debug.xcconfig"; path = "Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2B8F1F56E0A0E74184C559 /* Pods-FindCVSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVSTests.release.xcconfig"; path = "Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA1F0D7CFDBB5B65B2BD4BDD /* Pods_FindCVS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCVS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC84DE16C3E375A39F520389 /* Pods_FindCVSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCVSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8447410A77451C15606B6F /* Pods-FindCVS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS.debug.xcconfig"; path = "Target Support Files/Pods-FindCVS/Pods-FindCVS.debug.xcconfig"; sourceTree = "<group>"; };
 		E521473927F34168003CBE51 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
 		E521473B27F34259003CBE51 /* LocationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewController.swift; sourceTree = "<group>"; };
 		E521473E27F342BD003CBE51 /* LocationInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewModel.swift; sourceTree = "<group>"; };
@@ -47,6 +88,44 @@
 		E52EDD5A27F33D2300A22893 /* KLdocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLdocument.swift; sourceTree = "<group>"; };
 		E52F4BA327F6027F00DC1551 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		E52F4BA427F6057B00DC1551 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E59E60D927F7020D003EE905 /* FindCVSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindCVSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59E60E227F7027A003EE905 /* LocalNetworkStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNetworkStub.swift; sourceTree = "<group>"; };
+		E5B27C0327F71EDD005A75E7 /* map_pinup_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup_custom@3x.png"; sourceTree = "<group>"; };
+		E5B27C0427F71EDD005A75E7 /* map_pin_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_custom.png; sourceTree = "<group>"; };
+		E5B27C0527F71EDD005A75E7 /* shadow_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_balloon.png; sourceTree = "<group>"; };
+		E5B27C0627F71EDD005A75E7 /* map_pinup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup.png; sourceTree = "<group>"; };
+		E5B27C0727F71EDD005A75E7 /* detail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_button.png; sourceTree = "<group>"; };
+		E5B27C0827F71EDD005A75E7 /* map_pin_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_custom@3x.png"; sourceTree = "<group>"; };
+		E5B27C0927F71EDD005A75E7 /* map_pinup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup@3x.png"; sourceTree = "<group>"; };
+		E5B27C0A27F71EDD005A75E7 /* map_pin_shadow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_shadow@3x.png"; sourceTree = "<group>"; };
+		E5B27C0B27F71EDD005A75E7 /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyright.png; sourceTree = "<group>"; };
+		E5B27C0C27F71EDD005A75E7 /* th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = th_line.png; sourceTree = "<group>"; };
+		E5B27C0D27F71EDD005A75E7 /* map_pin_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_red@3x.png"; sourceTree = "<group>"; };
+		E5B27C0E27F71EDD005A75E7 /* daum_copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_copyright.png; sourceTree = "<group>"; };
+		E5B27C0F27F71EDD005A75E7 /* map_pin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@3x.png"; sourceTree = "<group>"; };
+		E5B27C1027F71EDD005A75E7 /* map_present_tracking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_tracking.png; sourceTree = "<group>"; };
+		E5B27C1127F71EDD005A75E7 /* map_pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_red.png; sourceTree = "<group>"; };
+		E5B27C1327F71EDD005A75E7 /* MTMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPOIItem.h; sourceTree = "<group>"; };
+		E5B27C1427F71EDD005A75E7 /* MTMapCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCameraUpdate.h; sourceTree = "<group>"; };
+		E5B27C1527F71EDD005A75E7 /* MTMapReverseGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapReverseGeoCoder.h; sourceTree = "<group>"; };
+		E5B27C1627F71EDD005A75E7 /* MTMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPolyline.h; sourceTree = "<group>"; };
+		E5B27C1727F71EDD005A75E7 /* MTMapLocationMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapLocationMarkerItem.h; sourceTree = "<group>"; };
+		E5B27C1827F71EDD005A75E7 /* MTMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapView.h; sourceTree = "<group>"; };
+		E5B27C1927F71EDD005A75E7 /* MTMapGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapGeometry.h; sourceTree = "<group>"; };
+		E5B27C1A27F71EDD005A75E7 /* MTMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCircle.h; sourceTree = "<group>"; };
+		E5B27C1B27F71EDD005A75E7 /* info_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box.png; sourceTree = "<group>"; };
+		E5B27C1C27F71EDD005A75E7 /* point_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_sprite.png; sourceTree = "<group>"; };
+		E5B27C1D27F71EDD005A75E7 /* map_pinup_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup_custom.png; sourceTree = "<group>"; };
+		E5B27C1E27F71EDD005A75E7 /* info_box_tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box_tail.png; sourceTree = "<group>"; };
+		E5B27C1F27F71EDD005A75E7 /* noimage256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage256.png; sourceTree = "<group>"; };
+		E5B27C2027F71EDD005A75E7 /* map_present_direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_direction.png; sourceTree = "<group>"; };
+		E5B27C2127F71EDD005A75E7 /* map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin.png; sourceTree = "<group>"; };
+		E5B27C2227F71EDD005A75E7 /* map_present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present.png; sourceTree = "<group>"; };
+		E5B27C2327F71EDD005A75E7 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		E5B27C2427F71EDD005A75E7 /* map_present_background_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_background_update.png; sourceTree = "<group>"; };
+		E5B27C2527F71EDD005A75E7 /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
+		E5B27C2627F71EDD005A75E7 /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
+		E5B27C2727F71EDD005A75E7 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
 		E5BB1BDE27F5E3E900853514 /* DetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCell.swift; sourceTree = "<group>"; };
 		E5BB1BE027F5E69900853514 /* DetailListBackGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackGroundView.swift; sourceTree = "<group>"; };
 		E5BB1BE427F5E6EA00853514 /* DetailListBackGroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackGroundViewModel.swift; sourceTree = "<group>"; };
@@ -59,7 +138,6 @@
 		E5EC900427F2DC12009FE296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5EC900727F2DC12009FE296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5EC900927F2DC12009FE296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5EC901027F2DE6A009FE296 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
 		E5EC901527F2DF40009FE296 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		E5EC901727F2DF4D009FE296 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E5EC901927F2DF66009FE296 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -70,29 +148,44 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E59E60D627F7020D003EE905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F788078F220D21ADB02E28 /* Pods_FindCVSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5EC8FF527F2DC11009FE296 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E526CD8127F60DCD00757C5B /* RxCocoa in Frameworks */,
 				E5EC902227F2DFAD009FE296 /* libsqlite3.0.tbd in Frameworks */,
 				E5EC902027F2DFA0009FE296 /* libxml2.tbd in Frameworks */,
 				E5EC901E27F2DF83009FE296 /* libc++.tbd in Frameworks */,
 				E5EC901C27F2DF70009FE296 /* QuartzCore.framework in Frameworks */,
-				E526CD8C27F60E2B00757C5B /* XCTest.framework in Frameworks */,
 				E5EC901A27F2DF66009FE296 /* CoreLocation.framework in Frameworks */,
 				E5EC901827F2DF4D009FE296 /* SystemConfiguration.framework in Frameworks */,
 				E5EC901627F2DF40009FE296 /* OpenGLES.framework in Frameworks */,
-				E526CD8927F60DFF00757C5B /* RxRelay in Frameworks */,
-				E5EC901127F2DE6A009FE296 /* DaumMap.framework in Frameworks */,
-				E526CD8327F60DEB00757C5B /* SnapKit in Frameworks */,
-				E526CD8527F60DF100757C5B /* RxSwift in Frameworks */,
+				E5B27C4327F71EDE005A75E7 /* DaumMap.framework in Frameworks */,
+				DC4A24A7640C19B67608F2AE /* Pods_FindCVS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77A065AD9AF7791CBA9CCC82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF8447410A77451C15606B6F /* Pods-FindCVS.debug.xcconfig */,
+				3979C0EBFD9EF5C71D3D35DD /* Pods-FindCVS.release.xcconfig */,
+				B140A174A1501886BBF9566B /* Pods-FindCVSTests.debug.xcconfig */,
+				BF2B8F1F56E0A0E74184C559 /* Pods-FindCVSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E521473D27F3426A003CBE51 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +206,73 @@
 				E521474E27F3496A003CBE51 /* MTMapViewError.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		E59E60DA27F7020D003EE905 /* FindCVSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E59E60E227F7027A003EE905 /* LocalNetworkStub.swift */,
+			);
+			path = FindCVSTests;
+			sourceTree = "<group>";
+		};
+		E5B27C0127F71EDD005A75E7 /* DaumMap.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				E5B27C0227F71EDD005A75E7 /* Resources */,
+				E5B27C2727F71EDD005A75E7 /* DaumMap.framework */,
+			);
+			path = DaumMap.embeddedframework;
+			sourceTree = "<group>";
+		};
+		E5B27C0227F71EDD005A75E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5B27C0327F71EDD005A75E7 /* map_pinup_custom@3x.png */,
+				E5B27C0427F71EDD005A75E7 /* map_pin_custom.png */,
+				E5B27C0527F71EDD005A75E7 /* shadow_balloon.png */,
+				E5B27C0627F71EDD005A75E7 /* map_pinup.png */,
+				E5B27C0727F71EDD005A75E7 /* detail_button.png */,
+				E5B27C0827F71EDD005A75E7 /* map_pin_custom@3x.png */,
+				E5B27C0927F71EDD005A75E7 /* map_pinup@3x.png */,
+				E5B27C0A27F71EDD005A75E7 /* map_pin_shadow@3x.png */,
+				E5B27C0B27F71EDD005A75E7 /* copyright.png */,
+				E5B27C0C27F71EDD005A75E7 /* th_line.png */,
+				E5B27C0D27F71EDD005A75E7 /* map_pin_red@3x.png */,
+				E5B27C0E27F71EDD005A75E7 /* daum_copyright.png */,
+				E5B27C0F27F71EDD005A75E7 /* map_pin@3x.png */,
+				E5B27C1027F71EDD005A75E7 /* map_present_tracking.png */,
+				E5B27C1127F71EDD005A75E7 /* map_pin_red.png */,
+				E5B27C1227F71EDD005A75E7 /* Headers */,
+				E5B27C1B27F71EDD005A75E7 /* info_box.png */,
+				E5B27C1C27F71EDD005A75E7 /* point_sprite.png */,
+				E5B27C1D27F71EDD005A75E7 /* map_pinup_custom.png */,
+				E5B27C1E27F71EDD005A75E7 /* info_box_tail.png */,
+				E5B27C1F27F71EDD005A75E7 /* noimage256.png */,
+				E5B27C2027F71EDD005A75E7 /* map_present_direction.png */,
+				E5B27C2127F71EDD005A75E7 /* map_pin.png */,
+				E5B27C2227F71EDD005A75E7 /* map_present.png */,
+				E5B27C2327F71EDD005A75E7 /* noimage.png */,
+				E5B27C2427F71EDD005A75E7 /* map_present_background_update.png */,
+				E5B27C2527F71EDD005A75E7 /* daum_th_line.png */,
+				E5B27C2627F71EDD005A75E7 /* map_pin_shadow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E5B27C1227F71EDD005A75E7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E5B27C1327F71EDD005A75E7 /* MTMapPOIItem.h */,
+				E5B27C1427F71EDD005A75E7 /* MTMapCameraUpdate.h */,
+				E5B27C1527F71EDD005A75E7 /* MTMapReverseGeoCoder.h */,
+				E5B27C1627F71EDD005A75E7 /* MTMapPolyline.h */,
+				E5B27C1727F71EDD005A75E7 /* MTMapLocationMarkerItem.h */,
+				E5B27C1827F71EDD005A75E7 /* MTMapView.h */,
+				E5B27C1927F71EDD005A75E7 /* MTMapGeometry.h */,
+				E5B27C1A27F71EDD005A75E7 /* MTMapCircle.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		E5BB1BE827F5F2EE00853514 /* Network */ = {
@@ -138,8 +298,10 @@
 			isa = PBXGroup;
 			children = (
 				E5EC8FFA27F2DC11009FE296 /* FindCVS */,
+				E59E60DA27F7020D003EE905 /* FindCVSTests */,
 				E5EC8FF927F2DC11009FE296 /* Products */,
 				E5EC900F27F2DE6A009FE296 /* Frameworks */,
+				77A065AD9AF7791CBA9CCC82 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				E5EC8FF827F2DC11009FE296 /* FindCVS.app */,
+				E59E60D927F7020D003EE905 /* FindCVSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +333,7 @@
 		E5EC900F27F2DE6A009FE296 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5B27C0127F71EDD005A75E7 /* DaumMap.embeddedframework */,
 				E52F4BA427F6057B00DC1551 /* XCTest.framework */,
 				E5EC902127F2DFAD009FE296 /* libsqlite3.0.tbd */,
 				E5EC901F27F2DFA0009FE296 /* libxml2.tbd */,
@@ -178,7 +342,8 @@
 				E5EC901927F2DF66009FE296 /* CoreLocation.framework */,
 				E5EC901727F2DF4D009FE296 /* SystemConfiguration.framework */,
 				E5EC901527F2DF40009FE296 /* OpenGLES.framework */,
-				E5EC901027F2DE6A009FE296 /* DaumMap.framework */,
+				DA1F0D7CFDBB5B65B2BD4BDD /* Pods_FindCVS.framework */,
+				DC84DE16C3E375A39F520389 /* Pods_FindCVSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,25 +351,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E59E60D827F7020D003EE905 /* FindCVSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59E60DF27F7020D003EE905 /* Build configuration list for PBXNativeTarget "FindCVSTests" */;
+			buildPhases = (
+				126D060F1EA74F4B699AB352 /* [CP] Check Pods Manifest.lock */,
+				E59E60D527F7020D003EE905 /* Sources */,
+				E59E60D627F7020D003EE905 /* Frameworks */,
+				E59E60D727F7020D003EE905 /* Resources */,
+				731A2B72F00AC80523519673 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E59E60DE27F7020D003EE905 /* PBXTargetDependency */,
+			);
+			name = FindCVSTests;
+			productName = FindCVSTests;
+			productReference = E59E60D927F7020D003EE905 /* FindCVSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E5EC8FF727F2DC11009FE296 /* FindCVS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5EC900C27F2DC12009FE296 /* Build configuration list for PBXNativeTarget "FindCVS" */;
 			buildPhases = (
+				CD41FB1AA052B21EF02996FD /* [CP] Check Pods Manifest.lock */,
 				E5EC8FF427F2DC11009FE296 /* Sources */,
 				E5EC8FF527F2DC11009FE296 /* Frameworks */,
 				E5EC8FF627F2DC11009FE296 /* Resources */,
+				4F8778B52CAC8E5F245144F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FindCVS;
-			packageProductDependencies = (
-				E526CD8027F60DCD00757C5B /* RxCocoa */,
-				E526CD8227F60DEB00757C5B /* SnapKit */,
-				E526CD8427F60DF100757C5B /* RxSwift */,
-				E526CD8827F60DFF00757C5B /* RxRelay */,
-			);
 			productName = FindCVS;
 			productReference = E5EC8FF827F2DC11009FE296 /* FindCVS.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +400,11 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					E59E60D827F7020D003EE905 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+						TestTargetID = E5EC8FF727F2DC11009FE296;
+					};
 					E5EC8FF727F2DC11009FE296 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -233,32 +419,152 @@
 				Base,
 			);
 			mainGroup = E5EC8FEF27F2DC11009FE296;
-			packageReferences = (
-				E521474027F343A7003CBE51 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				E521474B27F343BF003CBE51 /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
 			productRefGroup = E5EC8FF927F2DC11009FE296 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E5EC8FF727F2DC11009FE296 /* FindCVS */,
+				E59E60D827F7020D003EE905 /* FindCVSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E59E60D727F7020D003EE905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5EC8FF627F2DC11009FE296 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B27C3A27F71EDD005A75E7 /* info_box_tail.png in Resources */,
+				E5B27C2F27F71EDD005A75E7 /* map_pin_shadow@3x.png in Resources */,
+				E5B27C3D27F71EDE005A75E7 /* map_pin.png in Resources */,
+				E5B27C3627F71EDD005A75E7 /* map_pin_red.png in Resources */,
+				E5B27C2E27F71EDD005A75E7 /* map_pinup@3x.png in Resources */,
+				E5B27C3827F71EDD005A75E7 /* point_sprite.png in Resources */,
+				E5B27C3427F71EDD005A75E7 /* map_pin@3x.png in Resources */,
+				E5B27C3B27F71EDE005A75E7 /* noimage256.png in Resources */,
+				E5B27C3E27F71EDE005A75E7 /* map_present.png in Resources */,
+				E5B27C3327F71EDD005A75E7 /* daum_copyright.png in Resources */,
+				E5B27C3027F71EDD005A75E7 /* copyright.png in Resources */,
+				E5B27C2A27F71EDD005A75E7 /* shadow_balloon.png in Resources */,
+				E5B27C2D27F71EDD005A75E7 /* map_pin_custom@3x.png in Resources */,
+				E5B27C3127F71EDD005A75E7 /* th_line.png in Resources */,
+				E5B27C3927F71EDD005A75E7 /* map_pinup_custom.png in Resources */,
 				E5EC900827F2DC12009FE296 /* LaunchScreen.storyboard in Resources */,
+				E5B27C4127F71EDE005A75E7 /* daum_th_line.png in Resources */,
+				E5B27C2827F71EDD005A75E7 /* map_pinup_custom@3x.png in Resources */,
 				E5EC900527F2DC12009FE296 /* Assets.xcassets in Resources */,
+				E5B27C3527F71EDD005A75E7 /* map_present_tracking.png in Resources */,
+				E5B27C4227F71EDE005A75E7 /* map_pin_shadow.png in Resources */,
+				E5B27C3C27F71EDE005A75E7 /* map_present_direction.png in Resources */,
+				E5B27C4027F71EDE005A75E7 /* map_present_background_update.png in Resources */,
+				E5B27C2C27F71EDD005A75E7 /* detail_button.png in Resources */,
+				E5B27C3227F71EDD005A75E7 /* map_pin_red@3x.png in Resources */,
+				E5B27C3F27F71EDE005A75E7 /* noimage.png in Resources */,
+				E5B27C3727F71EDD005A75E7 /* info_box.png in Resources */,
+				E5B27C2927F71EDD005A75E7 /* map_pin_custom.png in Resources */,
+				E5B27C2B27F71EDD005A75E7 /* map_pinup.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		126D060F1EA74F4B699AB352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindCVSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8778B52CAC8E5F245144F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVS/Pods-FindCVS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVS/Pods-FindCVS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindCVS/Pods-FindCVS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		731A2B72F00AC80523519673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindCVSTests/Pods-FindCVSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD41FB1AA052B21EF02996FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindCVS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		E59E60D527F7020D003EE905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59E60E327F7027A003EE905 /* LocalNetworkStub.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E5EC8FF427F2DC11009FE296 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +588,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E59E60DE27F7020D003EE905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5EC8FF727F2DC11009FE296 /* FindCVS */;
+			targetProxy = E59E60DD27F7020D003EE905 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		E5EC900627F2DC12009FE296 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -294,6 +608,59 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E59E60E027F7020D003EE905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B140A174A1501886BBF9566B /* Pods-FindCVSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WQ6FF85SW;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aeron-kim.FindCVSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCVS.app/FindCVS";
+			};
+			name = Debug;
+		};
+		E59E60E127F7020D003EE905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2B8F1F56E0A0E74184C559 /* Pods-FindCVSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WQ6FF85SW;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aeron-kim.FindCVSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindCVS.app/FindCVS";
+			};
+			name = Release;
+		};
 		E5EC900A27F2DC12009FE296 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,6 +784,7 @@
 		};
 		E5EC900D27F2DC12009FE296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8447410A77451C15606B6F /* Pods-FindCVS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -426,6 +794,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FindCVS/Info.plist;
@@ -451,16 +820,18 @@
 		};
 		E5EC900E27F2DC12009FE296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3979C0EBFD9EF5C71D3D35DD /* Pods-FindCVS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5WQ6FF85SW;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FindCVS/Info.plist;
@@ -487,6 +858,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E59E60DF27F7020D003EE905 /* Build configuration list for PBXNativeTarget "FindCVSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59E60E027F7020D003EE905 /* Debug */,
+				E59E60E127F7020D003EE905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E5EC8FF327F2DC11009FE296 /* Build configuration list for PBXProject "FindCVS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -506,48 +886,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E521474027F343A7003CBE51 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		E521474B27F343BF003CBE51 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				branch = develop;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E526CD8027F60DCD00757C5B /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E521474027F343A7003CBE51 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		E526CD8227F60DEB00757C5B /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E521474B27F343BF003CBE51 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		E526CD8427F60DF100757C5B /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E521474027F343A7003CBE51 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		E526CD8827F60DFF00757C5B /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E521474027F343A7003CBE51 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E5EC8FF027F2DC11009FE296 /* Project object */;
 }

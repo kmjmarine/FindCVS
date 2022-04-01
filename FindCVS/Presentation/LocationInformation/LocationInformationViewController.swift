@@ -88,7 +88,7 @@ class LocationInformationViewController: UIViewController {
     
     private func layout() {
         [mapView, currentLocationButton, detailList]
-            .forEach{ view.addSubview($0) }
+            .forEach { view.addSubview($0) }
         
         mapView.snp.makeConstraints {
             $0.top.leading.trailing.equalTo(view.safeAreaLayoutGuide)
@@ -126,7 +126,7 @@ extension LocationInformationViewController: CLLocationManagerDelegate {
 extension LocationInformationViewController: MTMapViewDelegate {
     func mapView(_ mapView: MTMapView!, updateCurrentLocation location: MTMapPoint!, withAccuracy accuracy: MTMapLocationAccuracy) {
         #if DEBUG
-        viewModel.currentLocation.accept(MTMapPoint(geoCoord: MTMapPointGeo(latitude: 37.394225, longitude: 127.110341)))
+            viewModel.currentLocation.accept(MTMapPoint(geoCoord: MTMapPointGeo(latitude: 37.394225, longitude: 127.110341)))
         #else
             viewModel.currentLocation.accept(location)
         #endif
