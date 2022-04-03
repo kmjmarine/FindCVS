@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		39F788078F220D21ADB02E28 /* Pods_FindCVSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC84DE16C3E375A39F520389 /* Pods_FindCVSTests.framework */; };
 		DC4A24A7640C19B67608F2AE /* Pods_FindCVS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1F0D7CFDBB5B65B2BD4BDD /* Pods_FindCVS.framework */; };
+		E514BAFC27F9F586009E6834 /* networkDummy.json in Resources */ = {isa = PBXBuildFile; fileRef = E514BAFB27F9F586009E6834 /* networkDummy.json */; };
+		E514BAFE27F9F62D009E6834 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E514BAFD27F9F62D009E6834 /* Dummy.swift */; };
+		E514BB0227F9F812009E6834 /* LocationInformationModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E514BB0127F9F812009E6834 /* LocationInformationModelTests.swift */; };
+		E514BB0427F9FC7F009E6834 /* LocationInformationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E514BB0327F9FC7F009E6834 /* LocationInformationViewModelTests.swift */; };
 		E521473A27F34168003CBE51 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521473927F34168003CBE51 /* DetailListCellData.swift */; };
 		E521473C27F34259003CBE51 /* LocationInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521473B27F34259003CBE51 /* LocationInformationViewController.swift */; };
 		E521473F27F342BD003CBE51 /* LocationInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521473E27F342BD003CBE51 /* LocationInformationViewModel.swift */; };
@@ -80,6 +84,10 @@
 		DA1F0D7CFDBB5B65B2BD4BDD /* Pods_FindCVS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCVS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC84DE16C3E375A39F520389 /* Pods_FindCVSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindCVSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8447410A77451C15606B6F /* Pods-FindCVS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS.debug.xcconfig"; path = "Target Support Files/Pods-FindCVS/Pods-FindCVS.debug.xcconfig"; sourceTree = "<group>"; };
+		E514BAFB27F9F586009E6834 /* networkDummy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = networkDummy.json; sourceTree = "<group>"; };
+		E514BAFD27F9F62D009E6834 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		E514BB0127F9F812009E6834 /* LocationInformationModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationModelTests.swift; sourceTree = "<group>"; };
+		E514BB0327F9FC7F009E6834 /* LocationInformationViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewModelTests.swift; sourceTree = "<group>"; };
 		E521473927F34168003CBE51 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
 		E521473B27F34259003CBE51 /* LocationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewController.swift; sourceTree = "<group>"; };
 		E521473E27F342BD003CBE51 /* LocationInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewModel.swift; sourceTree = "<group>"; };
@@ -212,6 +220,10 @@
 			isa = PBXGroup;
 			children = (
 				E59E60E227F7027A003EE905 /* LocalNetworkStub.swift */,
+				E514BAFD27F9F62D009E6834 /* Dummy.swift */,
+				E514BB0127F9F812009E6834 /* LocationInformationModelTests.swift */,
+				E514BAFB27F9F586009E6834 /* networkDummy.json */,
+				E514BB0327F9FC7F009E6834 /* LocationInformationViewModelTests.swift */,
 			);
 			path = FindCVSTests;
 			sourceTree = "<group>";
@@ -434,6 +446,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E514BAFC27F9F586009E6834 /* networkDummy.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,7 +574,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E514BB0427F9FC7F009E6834 /* LocationInformationViewModelTests.swift in Sources */,
+				E514BAFE27F9F62D009E6834 /* Dummy.swift in Sources */,
 				E59E60E327F7027A003EE905 /* LocalNetworkStub.swift in Sources */,
+				E514BB0227F9F812009E6834 /* LocationInformationModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
